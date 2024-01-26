@@ -1,0 +1,26 @@
+######################################
+# Syntax Coloring Map For MyDelay
+#######################################
+ 
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+ 
+MyDelay	KEYWORD1
+ 
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+ 
+setDelay	KEYWORD2
+setCallback	KEYWORD2
+setRepeat	KEYWORD2
+update	KEYWORD2
+isRunning	KEYWORD2
+start	KEYWORD2
+stop	KEYWORD2
+ 
+#######################################
+# Constants (LITERAL1)
+#######################################
+MYDELAY_REPEAT_FOREVER	LITERAL1    
