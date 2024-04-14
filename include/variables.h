@@ -2,6 +2,7 @@
 #include <TaskScheduler.h>
 #include <PushButton.h>
 #include <millisDelay.h>
+#include <TM1637TinyDisplay.h>
 
 #define motoren 9 // motor power relay
 #define motordir 8 // motor direction selecter
