@@ -24,6 +24,9 @@ void setup() {
   selectbutton.setHoldTime(2000);
   selectbutton.setActiveLogic(HIGH); // Set the logic as active LOW, i.e. digital pin is LOW when button is pressed [default: HIGH]
   
+  display.begin();
+  display.setBrightness(1);
+  display.clear();
   ts.addTask(spinrun);
   ts.addTask(fillrun);
   ts.addTask(washrun);

@@ -26,6 +26,9 @@ millisDelay washdelay;
 millisDelay filldelay;
 millisDelay washpause;
 
+
+TM1637TinyDisplay display(11, 12);
+
 void wash();
 void readsw();
 void spin();
