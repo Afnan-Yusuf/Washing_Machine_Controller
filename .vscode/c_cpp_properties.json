@@ -10,6 +10,7 @@
             "includePath": [
                 "d:/Electronics/projects/Washing_Machine_Controller-1/include",
                 "d:/Electronics/projects/Washing_Machine_Controller-1/src",
+                "d:/Electronics/projects/Washing_Machine_Controller-1/lib/TM1637TinyDisplay",
                 "d:/Electronics/projects/Washing_Machine_Controller-1/lib/TaskScheduler/src",
                 "d:/Electronics/projects/Washing_Machine_Controller-1/lib/PushButton",
                 "d:/Electronics/projects/Washing_Machine_Controller-1/lib/millisDelay/src",
@@ -17,7 +18,6 @@
                 "C:/Users/ACM/.platformio/packages/framework-arduino-avr/cores/arduino",
                 "C:/Users/ACM/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
                 "d:/Electronics/projects/Washing_Machine_Controller-1/lib/SevSegShift",
-                "d:/Electronics/projects/Washing_Machine_Controller-1/lib/TM1637TinyDisplay",
                 "d:/Electronics/projects/Washing_Machine_Controller-1/lib/elapsedMillis",
                 "C:/Users/ACM/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                 "C:/Users/ACM/.platformio/packages/framework-arduino-avr/libraries/HID/src",
@@ -31,6 +31,7 @@
                 "path": [
                     "d:/Electronics/projects/Washing_Machine_Controller-1/include",
                     "d:/Electronics/projects/Washing_Machine_Controller-1/src",
+                    "d:/Electronics/projects/Washing_Machine_Controller-1/lib/TM1637TinyDisplay",
                     "d:/Electronics/projects/Washing_Machine_Controller-1/lib/TaskScheduler/src",
                     "d:/Electronics/projects/Washing_Machine_Controller-1/lib/PushButton",
                     "d:/Electronics/projects/Washing_Machine_Controller-1/lib/millisDelay/src",
@@ -38,7 +39,6 @@
                     "C:/Users/ACM/.platformio/packages/framework-arduino-avr/cores/arduino",
                     "C:/Users/ACM/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
                     "d:/Electronics/projects/Washing_Machine_Controller-1/lib/SevSegShift",
-                    "d:/Electronics/projects/Washing_Machine_Controller-1/lib/TM1637TinyDisplay",
                     "d:/Electronics/projects/Washing_Machine_Controller-1/lib/elapsedMillis",
                     "C:/Users/ACM/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
                     "C:/Users/ACM/.platformio/packages/framework-arduino-avr/libraries/HID/src",

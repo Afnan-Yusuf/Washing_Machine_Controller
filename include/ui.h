@@ -8,12 +8,12 @@ void readsw(){
   starbutton.update();
   selectbutton.update();
   adjbutton.update();
+
   if((isspinning == false)&&(iswashing == false)&&(isfilling == false)){
-    //sevseg.setChars(maninmenu[menu]);
-  //sevseg.refreshDisplay();
+    display.showString("Washing machine", 4, 0);
   }
-  //sevseg.setChars(maninmenu[menu]);
-  //sevseg.refreshDisplay();
+
+
   if(selectbutton.isDoubleClicked()){
     Serial.println("aouto");
     aouto = true;

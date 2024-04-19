@@ -16,6 +16,9 @@ void updatewashdelay(){
   //washpause.start(washpausedelay);
 }
 void wash(){
+  display.showString("WS", 2, 0, 0b01000000);
+  int remaining = washdelay.remaining() / 1000;
+  //display.showNumber(remaining, 0, 2, 2, 0b00000000);
     if (i <=washcycle){
       iswashing = true;
       if(washdelay.remaining() > motdelay1){
