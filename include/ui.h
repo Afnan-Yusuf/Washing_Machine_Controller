@@ -18,6 +18,7 @@ void readsw(){
     Serial.println("aouto");
     aouto = true;
     fillrun.enable();
+    
   }
 
 

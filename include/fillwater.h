@@ -19,7 +19,12 @@ void fill(){
     if(selectbutton.isClicked()){
       fillrun.disable();
     }
-  }
+    display.showString("IN", 2, 0, 0b01000000);
+    int fillremaining = filldelay.remaining() / 1000;
+    display.showNumber(fillremaining, 0, 2, 2);
+
+
+}
 
 void stopfill(){
   digitalWrite(inletsol,LOW);
